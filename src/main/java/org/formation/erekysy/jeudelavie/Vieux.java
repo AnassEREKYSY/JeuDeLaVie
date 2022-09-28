@@ -4,11 +4,12 @@ package org.formation.erekysy.jeudelavie;
  * @author hp
  *
  */
-public class Bebe implements Manger {
-	
+public class Vieux implements Manger {
+
 	@Override
 	public String manger() {
-		return "biberon";
+		// TODO Auto-generated method stub
+		return "soupe";
 	}
 
 }
