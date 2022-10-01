@@ -35,7 +35,7 @@ public class Personne {
 		this.nom = nom;
 	}
 	public String getInfo() {
-		return " "+getNom()+" "+getAge()+" "+getNut();
+		return "Nom: "+getNom()+" Age: "+getAge();
 	}
 
 }

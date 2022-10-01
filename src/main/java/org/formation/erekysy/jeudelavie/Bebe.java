@@ -10,5 +10,4 @@ public class Bebe implements Manger {
 	public String manger() {
 		return "biberon";
 	}
-
 }

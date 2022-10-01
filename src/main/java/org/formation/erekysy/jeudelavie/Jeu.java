@@ -12,7 +12,7 @@ public class Jeu {
 		for(int i=0;i<100;i++) {
 			homme.vieilleir();
 			femme.vieilleir();
-			
+			System.out.println((i+1)+" "+homme.getInfo()+"**************"+femme.getInfo());
 		}
 	}
 }
